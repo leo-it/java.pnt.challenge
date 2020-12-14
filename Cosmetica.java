@@ -13,10 +13,6 @@ public class Cosmetica extends Producto {
 		return contenido;
 	}
 
-	public void setContenido(String contenido) {
-		this.contenido = contenido;
-	}
-
 	public String toString() {
 		return "Nombre: " + getNombre() + " /// Contenido: " + getContenido() + " /// Precio: $" + getPrecio();
 	}

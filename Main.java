@@ -15,6 +15,7 @@ public class Main {
 			System.out.println(p.toString());
 		}
 		System.out.println("=============================");
+//		Ordeno lista de menor a mayor e imprimo el primer y el ultimo producto.
 		Collections.sort(lista);
 		System.out.println("Producto más caro: " + (lista.get(lista.size() - 1).getNombre()));
 		System.out.println("Producto más barato: " + lista.get(0).getNombre());

@@ -13,10 +13,6 @@ public class Frutas extends Producto {
 		return unidad;
 	}
 
-	public void setUnidad(String unidad) {
-		this.unidad = unidad;
-	}
-
 	public String toString() {
 		return "Nombre: " + getNombre() + " /// Precio: $" + getPrecio() + " /// Unidad de venta: " + getUnidad();
 	}

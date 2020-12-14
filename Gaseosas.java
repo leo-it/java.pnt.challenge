@@ -13,10 +13,6 @@ public class Gaseosas extends Producto {
 		return litros;
 	}
 
-	public void setLitros(double litros) {
-		this.litros = litros;
-	}
-
 	public String toString() {
 		return "Nombre: " + getNombre() + " /// Litros: " + getLitros() + " /// Precio: $" + getPrecio();
 	}
